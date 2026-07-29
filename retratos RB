@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Retratos de Mascotas — Transforma la foto de tu mascota o ser querido en una obra de arte pintada a mano en acrílico sobre lienzo. Envíos a toda Colombia.">
+  <meta name="keywords" content="retratos de mascotas, retratos personalizados, pinturas a mano, acrílico sobre lienzo, retratos Colombia, regalos personalizados">
+  <title>Retratos de Mascotas — Obras de Arte Pintadas a Mano</title>
+  <link rel="stylesheet" href="index.css">
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <div class="brand-icon">🎨</div>
+        <span class="brand-name">Retratos de Mascotas</span>
+      </a>
+
+      <div class="navbar-links" id="navLinks">
+        <a href="#galeria">Galería</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#faq">Preguntas</a>
+        <a href="https://wa.me/573102441391?text=Hola!%20Quiero%20mas%20informacion%20y%20cotizar%20un%20retrato%20personalizado" target="_blank" class="navbar-cta" id="navWhatsappBtn">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Cotizar
+        </a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="inicio">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">✨ Arte hecho con amor</div>
+        <h1>
+          Transforma tus recuerdos en una
+          <span class="highlight">obra de arte</span>
+          pintada a mano
+        </h1>
+        <p class="hero-description">
+          Retratos premium de mascotas y personas, hechos 100% a mano en acrílico sobre lienzo. 
+          Cada pincelada captura la esencia de quienes más amas. Envíos seguros a toda Colombia.
+        </p>
+        <div class="hero-actions">
+          <a href="https://wa.me/573102441391?text=Hola!%20Quiero%20mas%20informacion%20y%20cotizar%20un%20retrato%20personalizado" target="_blank" class="btn btn-whatsapp" id="heroCta">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Cotizar mi Retrato por WhatsApp
+          </a>
+          <a href="#galeria" class="btn btn-outline">Ver Galería</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="stat-number">500<span>+</span></div>
+            <div class="stat-label">Retratos entregados</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number">4.9<span>★</span></div>
+            <div class="stat-label">Calificación clientes</div>
+          </div>
+          <div class="hero-stat">
+            <div class="stat-number">100<span>%</span></div>
+            <div class="stat-label">Hecho a mano</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <img src="images/portrait_pet_new.png" alt="Retrato de mascota pintado a mano en acrílico" id="heroImage">
+        </div>
+        <div class="hero-floating-card">
+          <div class="card-icon">🖌️</div>
+          <div class="card-text">
+            <strong>Pintado a mano</strong>
+            <span>Acrílico sobre lienzo</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <div class="gallery-header reveal">
+        <span class="section-label">Nuestro Portafolio</span>
+        <h2 class="section-title">Elige el Estilo Perfecto</h2>
+        <p class="section-subtitle mx-auto">Cada retrato es único, pintado con dedicación y pasión. Descubre nuestras dos especialidades.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Card: Mascotas -->
+        <div class="gallery-card reveal reveal-delay-1" id="cardMascotas">
+          <div class="gallery-card-image">
+            <img src="images/portrait_pet_new.png" alt="Retrato personalizado de mascota pintado a mano">
+          </div>
+          <div class="gallery-card-overlay">
+            <h3>Retratos de Mascotas</h3>
+            <p>El homenaje perfecto para tu compañero fiel. Inmortalizamos a tu mascota en una obra de arte llena de vida.</p>
+            <a href="https://wa.me/573102441391?text=Hola!%20Quiero%20cotizar%20un%20retrato%20de%20mi%20mascota" target="_blank" class="btn btn-whatsapp" id="ctaMascotas">
+              <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Cotizar Retrato de Mascota
+            </a>
+          </div>
+        </div>
+
+        <!-- Card: Personas -->
+        <div class="gallery-card reveal reveal-delay-2" id="cardPersonas">
+          <div class="gallery-card-image">
+            <img src="images/hero_portrait_main.png" alt="Retrato personalizado de persona pintado a mano">
+          </div>
+          <div class="gallery-card-overlay">
+            <h3>Retratos de Personas</h3>
+            <p>Un regalo único y emotivo. Transformamos la foto de tus seres queridos en una pieza de arte inolvidable.</p>
+            <a href="https://wa.me/573102441391?text=Hola!%20Quiero%20cotizar%20un%20retrato%20de%20una%20persona" target="_blank" class="btn btn-whatsapp" id="ctaPersonas">
+              <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Cotizar Retrato de Persona
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mini showcase -->
+      <div class="gallery-showcase reveal">
+        <div class="gallery-showcase-item">
+          <img src="images/portrait_1.png" alt="Ejemplo retrato 1">
+        </div>
+        <div class="gallery-showcase-item">
+          <img src="images/portrait_2.png" alt="Ejemplo retrato 2">
+        </div>
+        <div class="gallery-showcase-item">
+          <img src="images/portrait_3.png" alt="Ejemplo retrato 3">
+        </div>
+        <div class="gallery-showcase-item">
+          <img src="images/portrait_family_new.png" alt="Retrato familiar">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== BENEFITS ========== -->
+  <section class="benefits" id="beneficios">
+    <div class="container">
+      <div class="benefits-header reveal">
+        <span class="section-label">¿Por Qué Elegirnos?</span>
+        <h2 class="section-title">Arte con Alma y Propósito</h2>
+        <p class="section-subtitle mx-auto">Cada retrato es creado con técnica profesional, materiales de primera calidad y una atención al detalle que solo el arte hecho a mano puede ofrecer.</p>
+      </div>
+
+      <div class="benefits-grid">
+        <div class="benefit-card reveal reveal-delay-1" id="benefit1">
+          <div class="benefit-icon">🖌️</div>
+          <h3>100% Pintado a Mano</h3>
+          <p>Técnica profesional en acrílico sobre lienzo de alta durabilidad. Cada trazo es cuidadosamente ejecutado para capturar cada detalle con precisión.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-2" id="benefit2">
+          <div class="benefit-icon">📦</div>
+          <h3>Envíos a Toda Colombia</h3>
+          <p>Empaque blindado y seguro para que tu obra llegue impecable a cualquier ciudad del país. Tu retrato viaja protegido de puerta a puerta.</p>
+        </div>
+        <div class="benefit-card reveal reveal-delay-3" id="benefit3">
+          <div class="benefit-icon">💬</div>
+          <h3>Asesoría Personalizada</h3>
+          <p>Evaluamos tu foto por WhatsApp antes de empezar para garantizar el mejor resultado. Te guiamos en cada paso del proceso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROCESS ========== -->
+  <section class="process" id="proceso">
+    <div class="container">
+      <div class="process-header reveal">
+        <span class="section-label">Así de Fácil</span>
+        <h2 class="section-title">¿Cómo Funciona?</h2>
+        <p class="section-subtitle mx-auto">En solo tres simples pasos tendrás una obra de arte única y personalizada en tus manos.</p>
+      </div>
+
+      <div class="process-steps">
+        <div class="process-step reveal reveal-delay-1" id="step1">
+          <div class="step-number">1</div>
+          <div class="step-icon">📸</div>
+          <h3>Envía tu Foto</h3>
+          <p>Compártenos tu foto favorita por WhatsApp. Te asesoramos para elegir el tamaño y estilo ideal para tu retrato.</p>
+        </div>
+        <div class="process-step reveal reveal-delay-2" id="step2">
+          <div class="step-number">2</div>
+          <div class="step-icon">🎨</div>
+          <h3>Pintamos tu Obra</h3>
+          <p>Tu retrato es pintado a mano con atención a cada detalle. Te enviamos avances del proceso para tu aprobación.</p>
+        </div>
+        <div class="process-step reveal reveal-delay-3" id="step3">
+          <div class="step-number">3</div>
+          <div class="step-icon">🏡</div>
+          <h3>Recibe en Casa</h3>
+          <p>Tu obra de arte llega a la puerta de tu casa con empaque especial, lista para colgar y disfrutar por siempre.</p>
+        </div>
+      </div>
+
+      <div class="process-cta reveal">
+        <a href="https://wa.me/573102441391?text=Hola!%20Quiero%20empezar%20con%20mi%20retrato" target="_blank" class="btn btn-gold" id="ctaProceso">
+          <svg viewBox="0 0 24 24" style="width:20px;height:20px;fill:white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Empezar Ahora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials" id="testimonios">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Nuestros Clientes</span>
+        <h2 class="section-title">Lo Que Dicen de Nosotros</h2>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal reveal-delay-1" id="testimonial1">
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <p>"El retrato de mi perrito quedó HERMOSO. Lloré cuando lo recibí, capturaron su personalidad perfectamente. ¡Mil gracias!"</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">MC</div>
+            <div class="testimonial-author-info">
+              <strong>María Camila R.</strong>
+              <span>Bogotá, Colombia</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal-delay-2" id="testimonial2">
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <p>"Le regalé un retrato a mi mamá con la foto de toda la familia. Fue el mejor regalo que le he dado en la vida. La calidad es impresionante."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AS</div>
+            <div class="testimonial-author-info">
+              <strong>Andrés S.</strong>
+              <span>Medellín, Colombia</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal reveal-delay-3" id="testimonial3">
+          <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+          <p>"Pedí un retrato de mi gata que falleció. Es una forma hermosa de recordarla siempre. El proceso fue súper fácil y rápido por WhatsApp."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">VL</div>
+            <div class="testimonial-author-info">
+              <strong>Valentina L.</strong>
+              <span>Cali, Colombia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ========== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="faq-header reveal">
+        <span class="section-label">Resolvemos tus Dudas</span>
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item" id="faq1">
+          <button class="faq-question">
+            ¿Cuánto tarda el proceso completo?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              El tiempo promedio es de 7 a 15 días hábiles dependiendo del tamaño y la complejidad del retrato. Te mantenemos al tanto del avance con fotos del proceso por WhatsApp para que estés tranquilo/a.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq2">
+          <button class="faq-question">
+            ¿Cómo debe ser la calidad de la foto que envío?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Idealmente necesitamos una foto con buena iluminación y en alta resolución. Si no estás seguro/a, envíanos la foto por WhatsApp y te decimos si funciona o te damos recomendaciones para lograr una mejor toma. ¡La asesoría es gratis!
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq3">
+          <button class="faq-question">
+            ¿Cuáles son los métodos de pago?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Aceptamos transferencia bancaria (Nequi, Daviplata, Bancolombia), pagos en efectivo por Efecty, y tarjeta de crédito. El pago se realiza 50% al confirmar el pedido y 50% al finalizar la obra, antes del envío.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq4">
+          <button class="faq-question">
+            ¿Cómo es el envío y empaque?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              Enviamos a toda Colombia por servientrega o Inter Rapidísimo. Tu retrato va protegido con empaque blindado de doble capa para que llegue en perfectas condiciones. El costo del envío depende de la ciudad de destino.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" id="faq5">
+          <button class="faq-question">
+            ¿Puedo pedir cambios o ajustes durante el proceso?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              ¡Claro que sí! Te enviamos avances fotográficos durante el proceso y tienes la oportunidad de solicitar ajustes antes de que la pintura se finalice. Tu satisfacción es nuestra prioridad.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FINAL CTA ========== -->
+  <section class="final-cta" id="contacto">
+    <div class="container reveal">
+      <span class="section-label">¿Listo para Empezar?</span>
+      <h2 class="section-title">Tu momento especial merece ser inmortalizado</h2>
+      <p class="section-subtitle">Escríbenos por WhatsApp, envía tu foto favorita y transformémosla juntos en una obra de arte que dure para siempre.</p>
+      <a href="https://wa.me/573102441391?text=Hola!%20Quiero%20mas%20informacion%20y%20cotizar%20un%20retrato%20personalizado" target="_blank" class="btn btn-whatsapp" id="ctaFinal">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Cotizar mi Retrato por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <div class="brand-name">🎨 Retratos de Mascotas</div>
+          <p>Arte hecho a mano con amor — Colombia</p>
+        </div>
+        <div class="footer-socials">
+          <a href="https://wa.me/573102441391" target="_blank" aria-label="WhatsApp" id="footerWhatsapp">💬</a>
+          <a href="#" aria-label="Instagram" id="footerInstagram">📷</a>
+          <a href="#" aria-label="Facebook" id="footerFacebook">📘</a>
+          <a href="#" aria-label="TikTok" id="footerTiktok">🎵</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Retratos de Mascotas. Todos los derechos reservados. Hecho con ❤️ en Colombia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== WHATSAPP FLOAT ========== -->
+  <a href="https://wa.me/573102441391?text=Hola!%20Quiero%20mas%20informacion%20y%20cotizar%20un%20retrato%20personalizado" target="_blank" class="whatsapp-float" id="whatsappFloat" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="tooltip">¡Escríbenos!</span>
+  </a>
+
+  <script src="index.js"></script>
+</body>
+</html>
